@@ -1,0 +1,62 @@
+{
+  "expo": {
+    "name": "SnapDiet AI",
+    "slug": "snapdiet-ai",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0A0A0F"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.snapdiet.ai",
+      "buildNumber": "1",
+      "infoPlist": {
+        "NSCameraUsageDescription": "SnapDiet AI uses your camera to scan and analyze meals for nutritional information.",
+        "NSPhotoLibraryUsageDescription": "SnapDiet AI accesses your photo library to analyze meal photos.",
+        "NSMicrophoneUsageDescription": "SnapDiet AI uses the microphone for video capture.",
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#0A0A0F"
+      },
+      "package": "com.snapdiet.ai",
+      "versionCode": 1,
+      "permissions": [
+        "android.permission.CAMERA",
+        "android.permission.READ_EXTERNAL_STORAGE",
+        "android.permission.WRITE_EXTERNAL_STORAGE",
+        "android.permission.CAMERA",
+        "android.permission.RECORD_AUDIO"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-camera",
+      "expo-image-picker",
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#0A0A0F"
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "13a7351e-fc81-4169-8cbf-1ba3051847c1"
+      }
+    }
+  }
+}
