@@ -250,7 +250,7 @@ export function SettingsScreen() {
           <View style={styles.divider} />
           <SettingRow
             icon="⭐"
-            title="Rate SnapDiet AI"
+            title="Rate FlashDiet AI"
             onPress={() => Alert.alert('Rate Us', 'Opening App Store... (coming soon)')}
           />
           <View style={styles.divider} />
@@ -273,7 +273,7 @@ export function SettingsScreen() {
           />
         </View>
 
-        <Text style={styles.footer}>SnapDiet AI · Made with ❤️ for healthy living</Text>
+        <Text style={styles.footer}>FlashDiet AI · Made with ❤️ for healthy living</Text>
         <View style={{ height: 40 }} />
       </ScrollView>
     </SafeAreaView>

@@ -2,15 +2,15 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 import { User, Meal, RankProgress, Subscription } from '../types';
 
 const KEYS = {
-  USER: '@snapdiet_user',
-  MEALS: '@snapdiet_meals',
-  RANK_PROGRESS: '@snapdiet_rank',
-  SUBSCRIPTION: '@snapdiet_subscription',
-  DAILY_LOGS: '@snapdiet_daily_logs',
-  WATER_ENTRIES: '@snapdiet_water',
-  GROCERY_LIST: '@snapdiet_grocery',
-  MOOD_ENTRIES: '@snapdiet_mood',
-  ONBOARDED: '@snapdiet_onboarded',
+  USER: '@flashdiet_user',
+  MEALS: '@flashdiet_meals',
+  RANK_PROGRESS: '@flashdiet_rank',
+  SUBSCRIPTION: '@flashdiet_subscription',
+  DAILY_LOGS: '@flashdiet_daily_logs',
+  WATER_ENTRIES: '@flashdiet_water',
+  GROCERY_LIST: '@flashdiet_grocery',
+  MOOD_ENTRIES: '@flashdiet_mood',
+  ONBOARDED: '@flashdiet_onboarded',
 };
 
 class StorageService {

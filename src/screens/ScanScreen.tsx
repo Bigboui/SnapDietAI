@@ -129,7 +129,7 @@ export function ScanScreen() {
         <Text style={styles.permissionEmoji}>📷</Text>
         <Text style={styles.permissionTitle}>Camera Access Required</Text>
         <Text style={styles.permissionSubtitle}>
-          SnapDiet AI needs camera access to analyze your meals.
+          FlashDiet AI needs camera access to analyze your meals.
         </Text>
         <TouchableOpacity style={styles.permissionBtn} onPress={requestPermission}>
           <Text style={styles.permissionBtnText}>Grant Access</Text>

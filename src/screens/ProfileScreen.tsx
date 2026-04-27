@@ -200,7 +200,7 @@ export function ProfileScreen() {
           <Text style={styles.signOutText}>🗑 Reset App Data</Text>
         </TouchableOpacity>
 
-        <Text style={styles.version}>SnapDiet AI v1.0.0 — Made with 💚</Text>
+        <Text style={styles.version}>FlashDiet AI v1.0.0 — Made with 💚</Text>
         <View style={{ height: 40 }} />
       </ScrollView>
     </SafeAreaView>

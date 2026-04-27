@@ -142,7 +142,7 @@ export function OnboardingScreen() {
         return (
           <View style={styles.stepContent}>
             <Text style={styles.stepEmoji}>👋</Text>
-            <Text style={styles.stepTitle}>Welcome to{'\n'}SnapDiet AI</Text>
+            <Text style={styles.stepTitle}>Welcome to{'\n'}FlashDiet AI</Text>
             <Text style={styles.stepSubtitle}>
               Your AI-powered nutrition companion. Snap meals, track progress, and level up your health.
             </Text>

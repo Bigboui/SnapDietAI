@@ -38,7 +38,7 @@ const PREMIUM_EXTRAS = [
 
 export function PaywallModal() {
   const { showPaywall, paywallFeature, setShowPaywall, setSubscription } = useAppStore();
-  const [selectedPlan, setSelectedPlan] = useState<string>('snapdiet_pro_yearly');
+  const [selectedPlan, setSelectedPlan] = useState<string>('flashdiet_pro_yearly');
   const [loading, setLoading] = useState(false);
   const [activeTab, setActiveTab] = useState<'pro' | 'premium'>('pro');
 
@@ -122,7 +122,7 @@ export function PaywallModal() {
             <View style={styles.crownContainer}>
               <Text style={styles.crown}>👑</Text>
             </View>
-            <Text style={styles.headerTitle}>Upgrade SnapDiet</Text>
+            <Text style={styles.headerTitle}>Upgrade FlashDiet</Text>
             <Text style={styles.headerSubtitle}>
               {paywallFeature
                 ? `Unlock ${paywallFeature} and much more`
@@ -136,7 +136,7 @@ export function PaywallModal() {
               style={[styles.tab, activeTab === 'pro' && styles.tabActive]}
               onPress={() => {
                 setActiveTab('pro');
-                setSelectedPlan('snapdiet_pro_yearly');
+                setSelectedPlan('flashdiet_pro_yearly');
               }}
             >
               <Text style={[styles.tabText, activeTab === 'pro' && styles.tabTextActive]}>
@@ -147,7 +147,7 @@ export function PaywallModal() {
               style={[styles.tab, activeTab === 'premium' && styles.tabActive]}
               onPress={() => {
                 setActiveTab('premium');
-                setSelectedPlan('snapdiet_premium_yearly');
+                setSelectedPlan('flashdiet_premium_yearly');
               }}
             >
               <Text style={[styles.tabText, activeTab === 'premium' && styles.tabTextActive]}>
